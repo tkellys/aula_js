@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    background-color:aquamarine;
+}
+
+#nome{
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+}
+#idade{
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+}
+
+#validar{
+    background-color: yellowgreen;
+    border-color: azure;
+}
+#limpar{
+    border-color: azure;
+}
