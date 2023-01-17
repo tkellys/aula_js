@@ -1,44 +1,59 @@
-// const saladaFrutas = ["banana","maçã","goiaba","manga","morango"];
 
-// console.log("salada 0: ",saladaFrutas);
+// 1 - Crie uma variavel meuArray deve ser uma constante com 10 elemento, 1 booleano, 1 String, 1 number
+// 2 - faça um console log e mostre todos os elementos
 
-// saladaFrutas.push("leite condensado");
-// console.log("salada 1: ", saladaFrutas);
-
-// saladaFrutas.push("leite em pó");
-// console.log("salada 2: ",saladaFrutas);
-
-// saladaFrutas.pop();
-// console.log("salada 3: ",saladaFrutas);
-
-// const itemRemovido = saladaFrutas.pop();
-// console.log("Item removido: ", itemRemovido);
-
-// const nomes = ["Ronier", "Larissa", "Vandecir", "Davi", "Alessandro"]
-
-// let posicao = nomes.indexOf("Davi");
+// const meuArray = ["Ana", "Miguel", "Elisa", true, "Maria",2, "Kelly", "Thomas", "Nicolas", "Bernardo"];
+// console.log(meuArray.length[meuArray -1]);
 
 
-// if(posicao === -1){
-//     console.log("Nome não encontrado");
-    
-// }else {
-// console.log(nomes[posicao]);
 
+// 3 Faça um FOR com console.log e mostre todos os elementos, 
+// const meuArray = ["Ana", "Miguel", "Elisa", true, "Maria",2, "Kelly", "Thomas", "Nicolas", "Bernardo"];
+//  let n = 0;
+
+// for (let n of meuArray) {
+//     console.log(n);
 // }
 
-// const saladaFrutas = ["banana","maçã","goiaba","manga","morango"];
-// function capsLk(valor) {
-//     return valor.toUpperCase();
-// }
-// const saladaUpper = saladaFrutas.map((fruta) => fruta.toUpperCase());
-// console.log(saladaFrutas);
-// console.log(saladaUpper);
+ // Depois faça um .forEach com um console log dentro de uma função callback
+// const meuArray = ["Ana", "Miguel", "Elisa", true, "Maria",2, "Kelly", "Thomas", "Nicolas", "Bernardo"];
 
-const nomes = ["Ronier", "Larissa", "Vandecir", "Davi", "Alessandro"]
+// meuArray.forEach(function(todos) {
+//     console.log(todos);
+// });
 
-function filtrarNomes(nome) {
-    if(nome === "Davi");
-    return nome;
-}  
-console.log(nome.filter(filtrarNomes));
+
+// Use o metodo .map no meuArray para retornar um array modificado a= deve ser chamado de meuArrayMutante, b= meuArrayMutante deve ser uma contante c= Todos os elementos do meuArrayMutante devem ser o numero 2.
+
+ const meuArray = ["Ana", "Miguel", "Elisa", true, "Maria",2, "Kelly", "Thomas", "Nicolas", "Bernardo"];
+
+ const meuArrayMutante = meuArray.map((value => value=2));
+ console.log(meuArrayMutante);
+
+// criando um novo array com o map de numeros aleatorios atraves da formula math.floor 
+
+ const numeros = meuArrayMutante.map(value => value +Math.floor(Math.random()*10));
+
+console.log(numeros);
+
+//  Mostrando apenas numeros impares do meu array mutante
+
+//  for (let index =0; index < numeros.length; index++){
+//     if(numeros[index]%2 !==0){
+//         console.log(numeros[index]);
+//     }
+//  }
+
+numeros.forEach(
+    function(maiores) {
+            if(maiores >4){
+                console.log(maiores);
+
+}
+     
+})
+
+
+
+
+  
